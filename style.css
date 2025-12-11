@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-box {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+
+  .login-box input[type="text"],
+  .login-box input[type="password"],
+  .login-box input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .login-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .login-box input[type="submit"]:hover {
+    background: #0056b3;
+  }
+
+  .container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+  } 
+
+  .img_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .icon {
+    height: 200px;
+    width: auto;
+    border: 2px solid black;
+  }
+
+  .icon:hover {
+    transform: scale(1.05);
+  }
+
+  #list {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  th, td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: left;
+  }
+
+  th {
+      background-color: #4CAF50;
+      color: white;
+  }
+
+  tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+
+  tr:hover {
+      background-color: #e0e0e0;
+  }
+
+  button {
+    width: 50%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background: #0056b3;
+  }
+
+  body{
+      background-image: url('https://bucket.dealervenom.com/bozeman-toyota/Toyota-of-Bozeman-drone-view.jpg?');
+  }
